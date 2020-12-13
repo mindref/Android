@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="?attr/actionBarSize"
+
+    >
+
+    <Button
+
+        android:id="@+id/nav_button"
+
+        android:layout_width="30dp"
+
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_centerVertical="true"
+
+        android:background="@drawable/ic_home"
+
+        ></Button>    <!--主页按钮-->
+
+
+
+    <TextView
+
+        android:id="@+id/title_city"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+
+        android:textColor="#fff"
+
+        android:textSize="20sp"></TextView>  <!--标题_城市-->
+
+    <Spinner
+
+        android:id="@+id/spinner"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="300dp"
+
+        android:outlineAmbientShadowColor="#ff3333"
+
+        android:outlineSpotShadowColor="#ffff33"
+
+        ></Spinner>     <!--下拉框控件-->
+
+
+    <Button
+
+        android:id="@+id/addw"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="350dp"
+
+        android:text="关注"></Button>  <!--添加关注按钮_控件-->
+
+
+    <Button
+
+        android:id="@+id/exchange"
+
+        android:layout_width="50dp"
+
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="300dp"
+
+        android:layout_marginTop="20dp"
+
+        android:text="切换"></Button>   <!--切换按钮_控件-->
+
+    <TextView
+
+        android:id="@+id/title_update_time"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="10dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_centerVertical="true"
+
+        android:textColor="#fff"
+
+        android:textSize="16sp"
+
+        ></TextView>
+
+</RelativeLayout>
